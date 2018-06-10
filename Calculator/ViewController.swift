@@ -138,7 +138,7 @@ class ViewController: UIViewController {
     var number2  = 0.0
     var result: Double?
     @IBAction func doOperations(_ sender: Any) {
-        if textField.text! != " "{
+        if textField.text! != " " && textField.text! != "."{
             number2 = Double(textField.text!)!
         }else{
             return
